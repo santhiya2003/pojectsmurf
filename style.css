@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: #ffffff url(file:///C:/Users/SELVAM/Downloads/Smurfette_TA.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 560px;
+    margin-top: 70px;
+
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: -150px;
+}
+
+.eye {
+    width: 40px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 30px;
+    padding-left: -200px;
+    text-align: center;
+}
+
+.ball {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK40sa-gTBaNnfYaLKRqj7DJL8mKCLegf6oA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
